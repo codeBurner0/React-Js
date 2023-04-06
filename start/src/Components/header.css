@@ -1,0 +1,14 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.parent{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+li{
+    list-style-type: none;
+}
+
