@@ -9,6 +9,8 @@ import PageNotFound from './components/PageNotFound';
 import Product from './components/Product';
 import Shirt from './components/Shirt';
 import Jeans from './components/Jeans';
+import User from './components/User';
+import Details from './components/Details';
 function App() {
   const navigate=useNavigate();
   const navToAbout=(name)=>{
@@ -25,6 +27,15 @@ function App() {
       <Route  path='/About' element={<About/>} />
       <Route  path='/Services' element={<Services/>} />
       <Route  path='/Contact' element={<Contact/>} />
+
+
+      <Route  path='/User' element={<User/>} >
+      <Route  path='/User/:id' exact element={<Details/>} />
+      </Route>
+      {/* <Route  path='/User/1' element={<Details/>} /> */}
+      {/* <Route  path='/User/2' element={<Details/>} /> */}
+
+
       < Route path='/Product' element={<Product/>} >
         <Route index element={<Jeans/>}/>
         <Route  path='Shirt' element={<Shirt/>} />

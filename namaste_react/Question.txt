@@ -1,0 +1,5 @@
+data?.name
+Reconsiliation in react 
+what is virtuel dom
+map, reduce, filter
+why react is fast :- Reconsiliation

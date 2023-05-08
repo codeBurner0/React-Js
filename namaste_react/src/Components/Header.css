@@ -1,0 +1,23 @@
+
+
+.image{
+    width: 80px;
+}
+
+.list{
+    list-style-type: none;
+    display: flex;
+}
+.list > li{
+    padding: 10px;
+}
+
+.sec{
+    border: 2px solid orange;
+    background-color: rgba(255, 166, 0, 0.297);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;align-content: center;
+}
